@@ -50,6 +50,12 @@ After completing this episode, participants should be able to…
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
+# R
+
+R is a programming language and software environment specifically designed for data analysis, statistics, and graphics. It's widely used by statisticians, data scientists, and researchers to manipulate data, perform statistical modeling, and create visualizations. One of its key strengths is its vast collection of packages and libraries, making it suitable for tasks ranging from simple calculations to complex spatial analysis, for example.
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
 # Project management in RStudio  
 
 RStudio is an integrated development environment (IDE), which means 
