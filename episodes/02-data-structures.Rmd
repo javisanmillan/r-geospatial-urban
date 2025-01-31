@@ -48,9 +48,10 @@ We won't discuss `complex` or `raw` data type in the workshop.
 ### Data structures
 
 Vectors are the most common and basic data structure in R but you will come 
-across other data structures such as data frames, lists and matrices as well.
+across other data structures such as factors, data frames, lists and matrices as well.
 In short:
 
+- factors are special data structures used to store categorical variables. Although they often resemble character vectors, factors store levels internally as integers.
 - data.frames is a two-dimensional data structure in which columns are vectors of the same length that can have different data types. We will use this data structure in this lesson.
 - lists can have an arbitrary structure and can mix data types;
 - matrices are two-dimensional data structures containing elements of the same data type.
