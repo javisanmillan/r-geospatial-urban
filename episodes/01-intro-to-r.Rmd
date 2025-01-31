@@ -136,7 +136,7 @@ There are two main ways to interact with R through RStudio:
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout
 
-When you open the RStudio or create the Rstudio project, you will see Console 
+When you open the RStudio or create the Rstudio project, you will see the Console 
 window on the left by default. Once you create an R script, 
 it is placed in the upper left pane. 
 The Console is moved to the bottom left pane.
@@ -328,9 +328,6 @@ Three of the most common ways of importing data in R are:
 - downloading data from a URL;
 - reading a file from your computer.
 
-For larger datasets, database connections or API requests are also possible. We
-will not cover these in the workshop.
-
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
@@ -353,11 +350,11 @@ use them whenever we need to.
 We using the assignment operator `<-`, like this:
 
 ```{r asignment-operator}
-x <- 1 / 40
+x <- 1 / 5
 ```
 
 Notice that assignment does not print a value. Instead, we've stored it for later 
-in something called a variable. `x` variable now contains the value `0.025`:
+in something called a variable. `x` variable now contains the value `0.20`:
 ```{r asignment-operator2}
 x
 ```
