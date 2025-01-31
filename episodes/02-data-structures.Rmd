@@ -34,7 +34,7 @@ It can be:
 
 - `numerical` (a number)
 - `integer` (a number without information about decimal points)
-- `logical` (a boolean - are values TRUE or FALSE?)
+- `logical` (are values TRUE or FALSE?)
 - `character` (a text/ string of characters)
 - `complex` (a complex number)
 - `raw` (raw bytes)
