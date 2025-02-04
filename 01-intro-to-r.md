@@ -115,7 +115,7 @@ There are two main ways to interact with R through RStudio:
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout
 
-When you open the RStudio or create the Rstudio project, you will see the Console 
+When you open the RStudio or create the Rstudio project, you will see Console 
 window on the left by default. Once you create an R script, 
 it is placed in the upper left pane. 
 The Console is moved to the bottom left pane.
@@ -129,6 +129,7 @@ Each of the modes o interactions has its advantages and drawbacks.
 |--------|---------|---------|
 |**Pros**|Immediate results| Complete record of your work |
 |**Cons**| Work lost once you close RStudio  | Messy if you just want to print things out|
+ 
 
 
 ## Creating a script
@@ -167,19 +168,6 @@ To run all lines before the active line, you can use the keyboard shortcut
 <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>B</kbd> on Windows/Linux or 
 <kbd>Command</kbd> + <kbd>option</kbd> + <kbd>B</kbd> on Mac.
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout
-
-### Escaping
-
-The console shows it's ready to get new commands with `>` sign. 
-It will show `+` sign if it still requires input for the command to be executed.
-
-Sometimes you don't know what is missing/you change your mind and 
-want to run something else, or your code is running much too long 
-and you just want it to stop. 
-The way to do it is to press <kbd>Esc</kbd>.
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Packages 
 
@@ -298,6 +286,7 @@ download.file(
   here("data", "gapminder_data.csv")
 )
 ```
+The data we just downloaded is data about country statistics, containing information on, for instance, GDP and life-expectancy. We will work with this data later in the lesson
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: callout
 
@@ -308,6 +297,9 @@ Three of the most common ways of importing data in R are:
 - loading a package with pre-installed data;
 - downloading data from a URL;
 - reading a file from your computer.
+
+For larger datasets, database connections or API requests are also possible. We
+will not cover these in the workshop.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -332,11 +324,11 @@ We using the assignment operator `<-`, like this:
 
 
 ``` r
-x <- 1 / 5
+x <- 1 / 40
 ```
 
 Notice that assignment does not print a value. Instead, we've stored it for later 
-in something called a variable. `x` variable now contains the value `0.20`:
+in something called a variable. `x` variable now contains the value `0.025`:
 
 ``` r
 x
